@@ -1,6 +1,6 @@
 # ProyectoFinal_WBDS-LA
 
-**Brenda Torres Huerta**
+### **Brenda Torres Huerta**
 
 El **objetivo** de este proyecto fue analizar el genoma de la bacteria gram negativa *Serratia marcescens*, un patógeno oportunista de insectos que causa bacteriemia en la hemolinfa y genera una muerte rápida. 
 
@@ -18,7 +18,7 @@ Este proyecto abarca la:
 6) Análisis filogenéticos
 
 
-**Paquetes requeridos para ejecutar el código:**
+**1. Paquetes requeridos para ejecutar el código:**
 
 1) *pyCirclize*: para visualizar nuestros datos genómicos
 2) *pyrodigal*: para la predicción de genes codificantes
@@ -41,3 +41,28 @@ Este proyecto abarca la:
 **3. Corrida:**
 
 Toda la información requerida para la ejecución del código se encuentra en el archivo **BrendaTorresHuerta_ProyectoFinal.ipynb**. En este notebook encontrarán la información necesaria para reproducir los diferentes análisis. Como mencioné, se utilizaron programas adicionales, los cuáles también se encuentran específicados en BrendaTorresHuerta_ProyectoFinal.ipynb
+
+**4. Archivos de entrada y salida**
+
+**ArchivosNootebook**
+1) CP053918.1.gff:
+2) CP053918.1.pep:
+3) uniprot_sequences.fasta:
+4) candidates.gff:
+5) query_str.fasta:
+6) InterPro_SmarSerralysin.tsv:
+
+**BlastpUniprotkbGenoma**
+1) blastp_out_file.asn:
+2) blastp_out_file.tsv:
+
+**Filogenias**
+1) MAFFT:
+2) ModelTest:
+3) Beauti:
+4) Beast:
+5) Tree:
+6) Best:
+7) iTOL.pdf:
+
+
