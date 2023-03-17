@@ -1,0 +1,175 @@
+--------------------------------------------------------------------------------
+ModelTest-NG vx.y.z
+
+Input data:
+  MSA:        MAFFT-SerralysinFilogenia.fasta
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            21
+  #sites:           628
+  #patterns:        580
+  Max. thread mem:  28 MB
+
+Output:
+  Log:           ModelTest/Serralysins.log
+  Starting tree: ModelTest/Serralysins.tree
+  Results:       ModelTest/Serralysins.out
+
+Selection options:
+  # protein matrices: 19
+  # protein models:   152
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: false
+    #categories:     4
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.01
+
+Additional options:
+  verbosity:        very low
+  threads:          1/32
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  WAG+I+G4+F        21    -12723.0981     25832.7485         0.0000    0.7310
+       2  WAG+G4+F          20    -12727.3193     25834.7484         1.9999    0.2690
+       3  VT+I+G4+F         21    -12741.0658     25868.6839        35.9354    0.0000
+       4  VT+G4+F           20    -12744.4740     25869.0578        36.3093    0.0000
+       5  WAG+I+G4           2    -12807.6942     25879.5326        46.7841    0.0000
+       6  WAG+G4             1    -12811.0242     25879.7499        47.0014    0.0000
+       7  LG+I+G4+F         21    -12749.2644     25885.0813        52.3328    0.0000
+       8  LG+G4+F           20    -12752.7117     25885.5332        52.7847    0.0000
+       9  BLOSUM62+I+G4+F   21    -12756.2733     25899.0990        66.3505    0.0000
+      10  BLOSUM62+G4+F     20    -12759.8163     25899.7425        66.9940    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              WAG+I+G4+F
+lnL:                -12723.0981
+Frequencies:        0.0958 0.0258 0.0716 0.0836 0.0009 0.0396 0.0341 0.1163 0.0211 0.0490 0.0678 0.0403 0.0091 0.0524 0.0242 0.0860 0.0699 0.0154 0.0466 0.0507
+Inv. sites prop:    0.0399
+Gamma shape:        1.4630
+Score:              25832.7485
+Weight:             0.7310
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.2690
+Gamma-Inv:          0.7310
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.0821
+Alpha:              1.1770
+Alpha-P.Inv:        1.4630
+P.Inv-Alpha:        0.0399
+Frequencies:        0.0958 0.0258 0.0716 0.0836 0.0009 0.0396 0.0341 0.1163 0.0211 0.0490 0.0678 0.0403 0.0091 0.0524 0.0242 0.0860 0.0699 0.0154 0.0466 0.0507 
+
+Commands:
+  > phyml  -i MAFFT-SerralysinFilogenia.fasta -d aa -m WAG -f e -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s MAFFT-SerralysinFilogenia.fasta -m PROTGAMMAIWAGF -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa MAFFT-SerralysinFilogenia.fasta --model WAG+I+G4+F
+  > paup -s MAFFT-SerralysinFilogenia.fasta
+  > iqtree -s MAFFT-SerralysinFilogenia.fasta -m WAG+I+G4+F
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  WAG+I+G4+F        21    -12723.0981     25566.1961         0.0000    0.9616
+       2  WAG+G4+F          20    -12727.3193     25572.6385         6.4424    0.0384
+       3  VT+I+G4+F         21    -12741.0658     25602.1315        35.9354    0.0000
+       4  VT+G4+F           20    -12744.4740     25606.9479        40.7518    0.0000
+       5  LG+I+G4+F         21    -12749.2644     25618.5289        52.3328    0.0000
+       6  LG+G4+F           20    -12752.7117     25623.4233        57.2272    0.0000
+       7  BLOSUM62+I+G4+F   21    -12756.2733     25632.5466        66.3505    0.0000
+       8  BLOSUM62+G4+F     20    -12759.8163     25637.6327        71.4366    0.0000
+       9  PMB+I+G4+F        21    -12773.4142     25666.8285       100.6324    0.0000
+      10  PMB+G4+F          20    -12776.3658     25670.7315       104.5354    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              WAG+I+G4+F
+lnL:                -12723.0981
+Frequencies:        0.0958 0.0258 0.0716 0.0836 0.0009 0.0396 0.0341 0.1163 0.0211 0.0490 0.0678 0.0403 0.0091 0.0524 0.0242 0.0860 0.0699 0.0154 0.0466 0.0507
+Inv. sites prop:    0.0399
+Gamma shape:        1.4630
+Score:              25566.1961
+Weight:             0.9616
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0384
+Gamma-Inv:          0.9616
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.0821
+Alpha:              1.1770
+Alpha-P.Inv:        1.4630
+P.Inv-Alpha:        0.0399
+Frequencies:        0.0958 0.0258 0.0716 0.0836 0.0009 0.0396 0.0341 0.1163 0.0211 0.0490 0.0678 0.0403 0.0091 0.0524 0.0242 0.0860 0.0699 0.0154 0.0466 0.0507 
+
+Commands:
+  > phyml  -i MAFFT-SerralysinFilogenia.fasta -d aa -m WAG -f e -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s MAFFT-SerralysinFilogenia.fasta -m PROTGAMMAIWAGF -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa MAFFT-SerralysinFilogenia.fasta --model WAG+I+G4+F
+  > paup -s MAFFT-SerralysinFilogenia.fasta
+  > iqtree -s MAFFT-SerralysinFilogenia.fasta -m WAG+I+G4+F
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  WAG+I+G4+F        21    -12723.0981     25578.1961         0.0000    0.9616
+       2  WAG+G4+F          20    -12727.3193     25584.6385         6.4424    0.0384
+       3  VT+I+G4+F         21    -12741.0658     25614.1315        35.9354    0.0000
+       4  VT+G4+F           20    -12744.4740     25618.9479        40.7518    0.0000
+       5  LG+I+G4+F         21    -12749.2644     25630.5289        52.3328    0.0000
+       6  LG+G4+F           20    -12752.7117     25635.4233        57.2272    0.0000
+       7  BLOSUM62+I+G4+F   21    -12756.2733     25644.5466        66.3505    0.0000
+       8  BLOSUM62+G4+F     20    -12759.8163     25649.6327        71.4366    0.0000
+       9  PMB+I+G4+F        21    -12773.4142     25678.8285       100.6324    0.0000
+      10  PMB+G4+F          20    -12776.3658     25682.7315       104.5354    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              WAG+I+G4+F
+lnL:                -12723.0981
+Frequencies:        0.0958 0.0258 0.0716 0.0836 0.0009 0.0396 0.0341 0.1163 0.0211 0.0490 0.0678 0.0403 0.0091 0.0524 0.0242 0.0860 0.0699 0.0154 0.0466 0.0507
+Inv. sites prop:    0.0399
+Gamma shape:        1.4630
+Score:              25578.1961
+Weight:             0.9616
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0384
+Gamma-Inv:          0.9616
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.0821
+Alpha:              1.1770
+Alpha-P.Inv:        1.4630
+P.Inv-Alpha:        0.0399
+Frequencies:        0.0958 0.0258 0.0716 0.0836 0.0009 0.0396 0.0341 0.1163 0.0211 0.0490 0.0678 0.0403 0.0091 0.0524 0.0242 0.0860 0.0699 0.0154 0.0466 0.0507 
+
+Commands:
+  > phyml  -i MAFFT-SerralysinFilogenia.fasta -d aa -m WAG -f e -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s MAFFT-SerralysinFilogenia.fasta -m PROTGAMMAIWAGF -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa MAFFT-SerralysinFilogenia.fasta --model WAG+I+G4+F
+  > paup -s MAFFT-SerralysinFilogenia.fasta
+  > iqtree -s MAFFT-SerralysinFilogenia.fasta -m WAG+I+G4+F
+Done
