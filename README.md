@@ -60,9 +60,10 @@ Toda la información requerida para la ejecución del código se encuentra en el
 1) MAFFT-SerralysinFilogenia.fasta
 2) ModelTest_Serralysins.out
 3) BeautiSerralysins.xml
-4) SerralysinFilogenia.trees
-5) Best-SerralysinFilogenia.trees
-6) iTOL.pdf
+4) SerralysinFilogenia.log
+5) SerralysinFilogenia.trees
+6) Best-SerralysinFilogenia.trees
+7) BestTreeiTOL-Smarcescens.pdf
 
 **Nota**: La información de que contiene cada archivo se encuentra dentro del directorio correspondiente
 
