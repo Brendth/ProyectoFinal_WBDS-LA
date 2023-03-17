@@ -1,0 +1,5 @@
+Smir	pyrodigal_v2.1.0	CDS	208566	210029	281.0	+	0	ID=Smir_184;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.575;conf=99.99;score=280.97;cscore=269.79;sscore=11.18;rscore=3.06;uscore=3.46;tscore=4.66;
+Smir	pyrodigal_v2.1.0	CDS	2196840	2198258	290.2	+	0	ID=Smir_2059;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.593;conf=99.99;score=290.23;cscore=272.89;sscore=17.34;rscore=10.69;uscore=2.65;tscore=4.66;
+Smir	pyrodigal_v2.1.0	CDS	2320188	2322032	417.0	-	0	ID=Smir_2176;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.606;conf=99.99;score=416.98;cscore=404.25;sscore=12.73;rscore=9.91;uscore=-1.18;tscore=4.66;
+Smir	pyrodigal_v2.1.0	CDS	2453645	2455261	385.7	+	0	ID=Smir_2296;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.612;conf=99.99;score=385.67;cscore=364.16;sscore=21.51;rscore=15.44;uscore=1.41;tscore=4.66;
+Smir	pyrodigal_v2.1.0	CDS	3391100	3392482	176.1	+	0	ID=Smir_3145;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.534;conf=100.00;score=176.10;cscore=153.72;sscore=22.37;rscore=15.44;uscore=2.93;tscore=4.66;

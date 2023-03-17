@@ -1,0 +1,72 @@
+	sequence	md5	length	database	accession	description	start	end	evalue	post_processed	date	entry	name
+0	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	SUPERFAMILY	SSF51120	beta-Roll	264	485	1.96E-50	T	17-03-2023	IPR011049	Serralysin-like metalloprotease, C-terminal
+1	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	FunFam	G3DSA:3.40.390.10:FF:000046	Serralysin	34	266	1.4E-119	T	17-03-2023	-	-
+2	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	Pfam	PF00353	RTX calcium-binding nonapeptide repeat (4 copies)	348	382	1.4E-10	T	17-03-2023	IPR001343	RTX calcium-binding nonapeptide repeat
+3	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	PANTHER	PTHR10201	MATRIX METALLOPROTEINASE	60	285	2.0E-11	T	17-03-2023	-	-
+4	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	SMART	SM00235	col_5	72	248	7.3E-32	T	17-03-2023	IPR006026	Peptidase, metallopeptidase
+5	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	ProSitePatterns	PS00330	Hemolysin-type calcium-binding region signature.	372	390	-	T	17-03-2023	IPR018511	Hemolysin-type calcium-binding conserved site
+6	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	PIRSF	PIRSF001205	Serralysin	2	487	0.0	T	17-03-2023	IPR016294	Peptidase M10B
+7	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	Gene3D	G3DSA:2.150.10.10	-	27	479	0.0	T	17-03-2023	IPR011049	Serralysin-like metalloprotease, C-terminal
+8	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	SUPERFAMILY	SSF55486	"Metalloproteases (""zincins""), catalytic domain"	20	262	1.82E-84	T	17-03-2023	-	-
+9	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	Pfam	PF08548	Peptidase M10 serralysin C terminal	264	487	1.2E-82	T	17-03-2023	IPR013858	Peptidase M10 serralysin, C-terminal
+10	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	Gene3D	G3DSA:3.40.390.10	Collagenase (Catalytic Domain)	34	265	0.0	T	17-03-2023	IPR024079	Metallopeptidase, catalytic domain superfamily
+11	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	CDD	cd04277	ZnMc_serralysin_like	71	263	9.85407E-58	T	17-03-2023	IPR034033	Serralysin-like metallopeptidase domain
+12	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	Pfam	PF00413	Matrixin	99	206	6.4E-9	T	17-03-2023	IPR001818	Peptidase M10, metallopeptidase
+13	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	FunFam	G3DSA:2.150.10.10:FF:000001	Serralysin	258	484	6.5E-119	T	17-03-2023	-	-
+14	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	PRINTS	PR00313	NodO calcium binding signature	346	357	3.4E-12	T	17-03-2023	-	-
+15	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	PRINTS	PR00313	NodO calcium binding signature	367	375	3.4E-12	T	17-03-2023	-	-
+16	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	PRINTS	PR00313	NodO calcium binding signature	376	384	3.4E-12	T	17-03-2023	-	-
+17	Smir_184	59d0dbb404933df9b89474a8f39813d6	487	PRINTS	PR00313	NodO calcium binding signature	385	394	3.4E-12	T	17-03-2023	-	-
+18	Smir_2176	08256e264a3a52708cf249b9588bd461	614	Gene3D	G3DSA:2.150.10.10	-	372	431	2.0E-5	T	17-03-2023	IPR011049	Serralysin-like metalloprotease, C-terminal
+19	Smir_2176	08256e264a3a52708cf249b9588bd461	614	SUPERFAMILY	SSF51120	beta-Roll	475	612	8.63E-15	T	17-03-2023	IPR011049	Serralysin-like metalloprotease, C-terminal
+20	Smir_2176	08256e264a3a52708cf249b9588bd461	614	SUPERFAMILY	SSF53474	alpha/beta-Hydrolases	131	293	3.35E-13	T	17-03-2023	IPR029058	Alpha/Beta hydrolase fold
+21	Smir_2176	08256e264a3a52708cf249b9588bd461	614	Pfam	PF00353	RTX calcium-binding nonapeptide repeat (4 copies)	371	398	2.6E-6	T	17-03-2023	IPR001343	RTX calcium-binding nonapeptide repeat
+22	Smir_2176	08256e264a3a52708cf249b9588bd461	614	Pfam	PF00353	RTX calcium-binding nonapeptide repeat (4 copies)	490	523	0.006	T	17-03-2023	IPR001343	RTX calcium-binding nonapeptide repeat
+23	Smir_2176	08256e264a3a52708cf249b9588bd461	614	PRINTS	PR00313	NodO calcium binding signature	380	391	1.8E-8	T	17-03-2023	-	-
+24	Smir_2176	08256e264a3a52708cf249b9588bd461	614	PRINTS	PR00313	NodO calcium binding signature	491	499	1.8E-8	T	17-03-2023	-	-
+25	Smir_2176	08256e264a3a52708cf249b9588bd461	614	PRINTS	PR00313	NodO calcium binding signature	509	517	1.8E-8	T	17-03-2023	-	-
+26	Smir_2176	08256e264a3a52708cf249b9588bd461	614	PRINTS	PR00313	NodO calcium binding signature	528	537	1.8E-8	T	17-03-2023	-	-
+27	Smir_2176	08256e264a3a52708cf249b9588bd461	614	Gene3D	G3DSA:2.150.10.10	-	447	613	4.0E-9	T	17-03-2023	IPR011049	Serralysin-like metalloprotease, C-terminal
+28	Smir_2176	08256e264a3a52708cf249b9588bd461	614	Gene3D	G3DSA:3.40.50.1820	alpha/beta hydrolase	1	327	0.0	T	17-03-2023	IPR029058	Alpha/Beta hydrolase fold
+29	Smir_2176	08256e264a3a52708cf249b9588bd461	614	SUPERFAMILY	SSF51120	beta-Roll	354	435	2.49E-8	T	17-03-2023	IPR011049	Serralysin-like metalloprotease, C-terminal
+30	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	Gene3D	G3DSA:2.150.10.10	-	252	463	0.0	T	17-03-2023	IPR011049	Serralysin-like metalloprotease, C-terminal
+31	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	CDD	cd04277	ZnMc_serralysin_like	60	248	2.48721E-49	T	17-03-2023	IPR034033	Serralysin-like metallopeptidase domain
+32	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	SMART	SM00235	col_5	64	233	1.5E-15	T	17-03-2023	IPR006026	Peptidase, metallopeptidase
+33	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	SUPERFAMILY	SSF55486	"Metalloproteases (""zincins""), catalytic domain"	26	247	8.28E-61	T	17-03-2023	-	-
+34	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	PRINTS	PR00313	NodO calcium binding signature	331	342	1.5E-13	T	17-03-2023	-	-
+35	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	PRINTS	PR00313	NodO calcium binding signature	352	360	1.5E-13	T	17-03-2023	-	-
+36	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	PRINTS	PR00313	NodO calcium binding signature	361	369	1.5E-13	T	17-03-2023	-	-
+37	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	PRINTS	PR00313	NodO calcium binding signature	370	379	1.5E-13	T	17-03-2023	-	-
+38	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	Pfam	PF00353	RTX calcium-binding nonapeptide repeat (4 copies)	333	368	4.4E-11	T	17-03-2023	IPR001343	RTX calcium-binding nonapeptide repeat
+39	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	SUPERFAMILY	SSF51120	beta-Roll	250	461	1.44E-43	T	17-03-2023	IPR011049	Serralysin-like metalloprotease, C-terminal
+40	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	PIRSF	PIRSF001205	Serralysin	1	471	0.0	T	17-03-2023	IPR016294	Peptidase M10B
+41	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	Pfam	PF00413	Matrixin	88	190	2.5E-8	T	17-03-2023	IPR001818	Peptidase M10, metallopeptidase
+42	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	ProSitePatterns	PS00330	Hemolysin-type calcium-binding region signature.	357	375	-	T	17-03-2023	IPR018511	Hemolysin-type calcium-binding conserved site
+43	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	PANTHER	PTHR10201	MATRIX METALLOPROTEINASE	51	270	1.4E-9	T	17-03-2023	-	-
+44	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	Pfam	PF08548	Peptidase M10 serralysin C terminal	249	470	7.3E-83	T	17-03-2023	IPR013858	Peptidase M10 serralysin, C-terminal
+45	Smir_2059	1dffbd43bbc70cecffe799fbed110fc2	472	Gene3D	G3DSA:3.40.390.10	Collagenase (Catalytic Domain)	27	251	0.0	T	17-03-2023	IPR024079	Metallopeptidase, catalytic domain superfamily
+46	Smir_2296	14b3755a308f8e091cfb770ccb74a2ee	538	SUPERFAMILY	SSF55486	"Metalloproteases (""zincins""), catalytic domain"	70	305	4.4E-52	T	17-03-2023	-	-
+47	Smir_2296	14b3755a308f8e091cfb770ccb74a2ee	538	CDD	cd04277	ZnMc_serralysin_like	100	306	7.47146E-44	T	17-03-2023	IPR034033	Serralysin-like metallopeptidase domain
+48	Smir_2296	14b3755a308f8e091cfb770ccb74a2ee	538	Pfam	PF00413	Matrixin	134	258	2.2E-10	T	17-03-2023	IPR001818	Peptidase M10, metallopeptidase
+49	Smir_2296	14b3755a308f8e091cfb770ccb74a2ee	538	PANTHER	PTHR10201	MATRIX METALLOPROTEINASE	115	346	2.0E-11	T	17-03-2023	-	-
+50	Smir_2296	14b3755a308f8e091cfb770ccb74a2ee	538	SUPERFAMILY	SSF51120	beta-Roll	308	529	1.44E-34	T	17-03-2023	IPR011049	Serralysin-like metalloprotease, C-terminal
+51	Smir_2296	14b3755a308f8e091cfb770ccb74a2ee	538	Gene3D	G3DSA:2.150.10.10	-	56	530	0.0	T	17-03-2023	IPR011049	Serralysin-like metalloprotease, C-terminal
+52	Smir_2296	14b3755a308f8e091cfb770ccb74a2ee	538	SMART	SM00235	col_5	93	291	2.3E-8	T	17-03-2023	IPR006026	Peptidase, metallopeptidase
+53	Smir_2296	14b3755a308f8e091cfb770ccb74a2ee	538	Pfam	PF00353	RTX calcium-binding nonapeptide repeat (4 copies)	392	427	1.7E-7	T	17-03-2023	IPR001343	RTX calcium-binding nonapeptide repeat
+54	Smir_2296	14b3755a308f8e091cfb770ccb74a2ee	538	Pfam	PF08548	Peptidase M10 serralysin C terminal	307	534	7.7E-68	T	17-03-2023	IPR013858	Peptidase M10 serralysin, C-terminal
+55	Smir_2296	14b3755a308f8e091cfb770ccb74a2ee	538	Gene3D	G3DSA:3.40.390.10	Collagenase (Catalytic Domain)	60	308	0.0	T	17-03-2023	IPR024079	Metallopeptidase, catalytic domain superfamily
+56	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	Gene3D	G3DSA:2.150.10.10	-	13	454	0.0	T	17-03-2023	IPR011049	Serralysin-like metalloprotease, C-terminal
+57	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	CDD	cd04277	ZnMc_serralysin_like	55	235	6.56291E-40	T	17-03-2023	IPR034033	Serralysin-like metallopeptidase domain
+58	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	Pfam	PF00413	Matrixin	55	196	1.4E-10	T	17-03-2023	IPR001818	Peptidase M10, metallopeptidase
+59	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	SUPERFAMILY	SSF55486	"Metalloproteases (""zincins""), catalytic domain"	8	234	1.22E-50	T	17-03-2023	-	-
+60	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	PRINTS	PR00313	NodO calcium binding signature	318	329	2.4E-9	T	17-03-2023	-	-
+61	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	PRINTS	PR00313	NodO calcium binding signature	339	347	2.4E-9	T	17-03-2023	-	-
+62	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	PRINTS	PR00313	NodO calcium binding signature	348	356	2.4E-9	T	17-03-2023	-	-
+63	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	PRINTS	PR00313	NodO calcium binding signature	357	366	2.4E-9	T	17-03-2023	-	-
+64	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	Gene3D	G3DSA:3.40.390.10	Collagenase (Catalytic Domain)	17	238	0.0	T	17-03-2023	IPR024079	Metallopeptidase, catalytic domain superfamily
+65	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	Pfam	PF08548	Peptidase M10 serralysin C terminal	236	460	2.0E-71	T	17-03-2023	IPR013858	Peptidase M10 serralysin, C-terminal
+66	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	SMART	SM00235	col_5	47	216	7.1E-12	T	17-03-2023	IPR006026	Peptidase, metallopeptidase
+67	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	SUPERFAMILY	SSF51120	beta-Roll	238	457	1.44E-43	T	17-03-2023	IPR011049	Serralysin-like metalloprotease, C-terminal
+68	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	PANTHER	PTHR10201	MATRIX METALLOPROTEINASE	37	253	1.6E-13	T	17-03-2023	-	-
+69	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	PIRSF	PIRSF001205	Serralysin	1	460	0.0	T	17-03-2023	IPR016294	Peptidase M10B
+70	Smir_3145	637bcc7fecc62199d327a993d9fe72d2	460	Pfam	PF00353	RTX calcium-binding nonapeptide repeat (4 copies)	330	363	5.0E-10	T	17-03-2023	IPR001343	RTX calcium-binding nonapeptide repeat
