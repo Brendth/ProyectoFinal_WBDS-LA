@@ -1,4 +1,4 @@
-# ProyectoFinal WBDS-LA Camp
+# Proyecto Final WBDS-LA Camp
 
 ### **Brenda Torres Huerta**
 
