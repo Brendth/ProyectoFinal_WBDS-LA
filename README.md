@@ -57,13 +57,12 @@ Toda la información requerida para la ejecución del código se encuentra en el
 2) blastp_out_file.tsv
 
 **Filogenias**
-1) MAFFT
-2) ModelTest
-3) Beauti
-4) Beast
-5) Tree
-6) Best
-7) iTOL.pdf
+1) MAFFT-SerralysinFilogenia.fasta
+2) ModelTest_Serralysins.out
+3) BeautiSerralysins.xml
+4) SerralysinFilogenia.trees
+5) Best-SerralysinFilogenia.trees
+6) iTOL.pdf
 
 **Nota**: La información de que contiene cada archivo se encuentra dentro del directorio correspondiente
 
