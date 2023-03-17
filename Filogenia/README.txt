@@ -6,4 +6,4 @@
 4) SerralysinFilogenia.log: Archivo donde se guarda la salida de la ejecución del análisis con el modulo beast, se utiliza para evaluar los resultados en Tracer.
 5) SerralysinFilogenia.trees: Archivo que contiene todos los árboles generados.
 6) Best-SerralysinFilogenia.trees: Contiene el mejor árbol anotado.
-7) iTOL.pdf: Edición del árbol con iTOL
+7) BestTreeiTOL-Smarcescens.pdf: Edición del árbol con iTOL
