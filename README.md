@@ -45,24 +45,25 @@ Toda la información requerida para la ejecución del código se encuentra en el
 **4. Archivos de entrada y salida**
 
 **ArchivosNootebook**
-1) CP053918.1.gff:
-2) CP053918.1.pep:
-3) uniprot_sequences.fasta:
-4) candidates.gff:
-5) query_str.fasta:
-6) InterPro_SmarSerralysin.tsv:
+1) CP053918.1.gff
+2) CP053918.1.pep
+3) uniprot_sequences.fasta
+4) candidates.gff
+5) query_str.fasta
+6) InterPro_SmarSerralysin.tsv
 
 **BlastpUniprotkbGenoma**
-1) blastp_out_file.asn:
-2) blastp_out_file.tsv:
+1) blastp_out_file.asn
+2) blastp_out_file.tsv
 
 **Filogenias**
-1) MAFFT:
-2) ModelTest:
-3) Beauti:
-4) Beast:
-5) Tree:
-6) Best:
-7) iTOL.pdf:
+1) MAFFT
+2) ModelTest
+3) Beauti
+4) Beast
+5) Tree
+6) Best
+7) iTOL.pdf
 
+**Nota**: La información de que contiene cada archivo se encuentra dentro del directorio correspondiente
 
