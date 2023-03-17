@@ -40,7 +40,7 @@ Este proyecto abarca la:
 
 **3. Corrida:**
 
-Toda la información requerida para la ejecución del código se encuentra en el archivo **BrendaTorresHuerta_ProyectoFinal.ipynb**. En este notebook encontrarán la información necesaria para reproducir los diferentes análisis. Como mencioné, se utilizaron programas adicionales, los cuáles también se encuentran específicados en BrendaTorresHuerta_ProyectoFinal.ipynb
+Toda la información requerida para la ejecución del código se encuentra en el archivo **ProyectoFinal_WBDS-LA_BrendaTorresHuerta**. En este notebook encontrarán la información necesaria para reproducir los diferentes análisis. Como mencioné, se utilizaron programas adicionales, los cuáles también se encuentran específicados en BrendaTorresHuerta_ProyectoFinal.ipynb
 
 **4. Archivos de entrada y salida**
 
