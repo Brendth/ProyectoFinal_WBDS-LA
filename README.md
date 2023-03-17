@@ -1,4 +1,4 @@
-#ProyectoFinal_WBDS-LA
+ProyectoFinal_WBDS-LA
 
 **Brenda Torres Huerta**
 
